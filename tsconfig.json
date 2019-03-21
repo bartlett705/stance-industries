@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+      "alwaysStrict": true,
+      "allowJs": true,
+      "jsx": "react",
+      "noImplicitAny": true,
+      "noImplicitThis": true,
+      "moduleResolution": "node",
+      "outDir": "build",
+      "sourceMap": true,
+      "target": "es6"
+    },
+    "exclude": ["node_modules", "build", "jest"]
+  }
+  
