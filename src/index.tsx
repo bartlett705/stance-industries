@@ -44,7 +44,7 @@ const Nav: React.SFC<{ currentPath: string }> = ({ currentPath }) => (
         padding: 0.5rem;
       `}
     >
-      <NavLink currentPath={currentPath} href="./">
+      <NavLink currentPath={currentPath} href="./index.html">
         Home
       </NavLink>
       <NavLink currentPath={currentPath} href="./services.html">
