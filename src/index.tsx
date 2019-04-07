@@ -136,6 +136,17 @@ const Services: PageComponent = ({ currentPath }) => (
       <li>Leash-loop installation at competitive rates 🐕🚶</li>
       <li>Custom metrics and user-behavior tracking 💁🗺🕵</li>
     </ul>
+    <SectionTitle>Web Development</SectionTitle>
+    <ul>
+      <li>Amazing styling like you see here 😂</li>
+      <li>Vertically-integrated; full-stack and devops available 🏗👷‍♀</li>
+      <li>Preferred stack: Typescript📈, Koa, React⚛️, Nginx, Linux🐧</li>
+    </ul>
+    <SectionTitle>Cocktails</SectionTitle>
+    <ul>
+      <li>Bespoke bitters macerated to order 🍒🌰🍼</li>
+      <li>Custom recipes for any occasion 🎉🎊</li>
+    </ul>
   </Page>
 );
 
