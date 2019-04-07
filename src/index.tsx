@@ -57,7 +57,7 @@ const Nav: React.SFC<{ currentPath: string }> = ({ currentPath }) => (
   </div>
 );
 
-const Page: React.SFC<{ title?: string; currentPath: string }> = ({
+const Page: React.FunctionComponent<{ title?: string; currentPath: string }> = ({
   title,
   currentPath,
   children
@@ -93,9 +93,40 @@ const Page: React.SFC<{ title?: string; currentPath: string }> = ({
 
 const Index: PageComponent = ({ currentPath }) => (
   <Page currentPath={currentPath}>
-    <h1>Welcome to Stance Industries!</h1>
+    <h1 css={flexCentered}>Welcome to Stance Industries!</h1>
+    <Section>
+      <SectionTitle>Mission</SectionTitle>
+      <p>
+        Providing a nuturing environment for 🐕 of all types.
+        </p>
+    </Section>
+    <Section>
+      <SectionTitle>Vision</SectionTitle>
+      <p>
+        Working on this one.
+        </p>
+    </Section>
+    <Section>
+      <SectionTitle>Strategy</SectionTitle>
+      <p>
+        Syngergizing decentralized systems to enhance customer value, while reducing both idiosyncratic and systematic risk.
+        </p>
+    </Section>
   </Page>
 );
+
+const flexCentered = css`
+display: flex;
+align-items: center;
+flex-direction: column;
+`
+
+const Section: React.FunctionComponent = ({ children }) => (
+  <section css={flexCentered}>{children}</section>
+)
+const SectionTitle: React.FunctionComponent = ({ children }) => (
+  <h2>{children}</h2>
+)
 
 const Services: PageComponent = ({ currentPath }) => (
   <Page currentPath={currentPath}>

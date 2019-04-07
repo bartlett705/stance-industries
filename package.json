@@ -14,10 +14,15 @@
     "@types/react": "^16.8.8",
     "@types/react-dom": "^16.8.3",
     "@types/rimraf": "^2.0.2",
+    "express": "^4.16.4",
     "react": "^16.8.4",
     "react-dom": "^16.8.4",
+    "serve-static": "^1.13.2",
     "tslint": "^5.14.0",
-    "typescript": "^3.3.4000"
+    "typescript": "^3.4.2",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.3.0",
+    "webpack-dev-server": "^3.2.1"
   },
   "dependencies": {
     "@emotion/core": "^10.0.9",
