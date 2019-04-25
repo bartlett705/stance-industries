@@ -28,6 +28,7 @@
     "emotion-server": "^10.0.9",
     "react": "^16.8.4",
     "react-dom": "^16.8.4",
+    "recursive-copy": "^2.0.10",
     "rimraf": "^2.6.3",
     "ts-node": "^8.0.3",
     "typescript": "^3.4.2"
